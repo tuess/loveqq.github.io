@@ -3,7 +3,7 @@
  * @type {number}
  */
 
-/**
+
 if (selectModal) {
   let extraScoreStr = '';
   while (isNaN(parseInt(extraScoreStr))) {
@@ -11,7 +11,6 @@ if (selectModal) {
   }
   extraScore = parseInt(extraScoreStr)
 }
-*/
 
 window.__require = function e(t, n, o) {
   function c(i, r) {
