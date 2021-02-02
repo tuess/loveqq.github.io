@@ -80,7 +80,7 @@ window.boot = function() {
             var percent = 100 * completedCount / totalCount;
             if (loadingBool && loadingNum >= 1 && totalCount > 1) {
                 if (percent.toFixed(0) >= 100) {
-                    loadintT.innerHTML = '正在偷几吧......100' + '%';
+                    loadintT.innerHTML = 'loading......100' + '%';
                     setTimeout(function() {
                         loadingBool = false;
                         loadintT.remove();
